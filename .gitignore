@@ -1,0 +1,13 @@
+*.png
+*.ipynb_checkpoints
+*.h5
+*.csv
+*.xml
+*.txt
+*.out
+*.bak
+*.*~
+*.msh
+*.DS_Store
+*.vtu
+*.pvtu
