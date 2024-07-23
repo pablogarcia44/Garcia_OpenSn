@@ -3,7 +3,7 @@
 
 ## Pincell study
 
-Ce repertoire contient differentes analyses sur un pincell sans gap
+This directory contains various analyses on a pin cell without a gap.
 
 ### Study 1 Legendre Order
 
@@ -15,16 +15,34 @@ Ce repertoire contient les analyses portant sur l'ordre de legendre pour la gene
 
 [Study 1 Legendre Order](./pincell_study/2_angular)
 
-Ce repertoire contient les analyses portant sur la discretisation angulaire dans OpenSn
+This directory contains analyses regarding the Legendre order for generating MGXS in OpenMC.
+
 
 ### Study 3 Fuel
 
 [Study 1 Legendre Order](./pincell_study/3_fuel)
 
-Ce repertoire contient les analyses portant sur le nombre de zone de fuel a generer dans OpenMC
+This directory contains analyses on the number of fuel zones to generate in OpenMC.
+
 
 ### Study 4 Gmsh
 
 [Study 1 Legendre Order](./pincell_study/4_gmsh)
 
-Ce repertoire contient l'etude comparative entre l'utilisation de gmsh et de spidermesh
+This directory contains a comparative study between the use of Gmsh and Spidermesh.
+
+## Assembly study
+
+This directory contains various analyses on a fuel assembly.
+
+### Study 1 Legendre Order
+
+[Study 1 Family](./pincell_study/1_legendre)
+
+This directory contains analyses on the number of families to adopt for generating MGXS with OpenMC.
+
+
+
+
+
+
