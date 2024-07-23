@@ -1,8 +1,10 @@
 # Garcia_OpenSn
 
 
-## OpenMC input files
+## Pincell study
 
-[Single fuel pin cell](./pincell/pincell.md)
+### Study 1 Legendre Order
+
+](./pincell/pincell.md)
 
 [Common Utilities](./utils/utils.md)
