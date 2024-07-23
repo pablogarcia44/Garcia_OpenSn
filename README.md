@@ -13,21 +13,21 @@ Ce repertoire contient les analyses portant sur l'ordre de legendre pour la gene
 
 ### Study 2 Angular
 
-[Study 1 Legendre Order](./pincell_study/2_angular)
+[Study 2 Angular](./pincell_study/2_angular)
 
 This directory contains analyses regarding the Legendre order for generating MGXS in OpenMC.
 
 
 ### Study 3 Fuel
 
-[Study 1 Legendre Order](./pincell_study/3_fuel)
+[Study 3 Fuel](./pincell_study/3_fuel)
 
 This directory contains analyses on the number of fuel zones to generate in OpenMC.
 
 
 ### Study 4 Gmsh
 
-[Study 1 Legendre Order](./pincell_study/4_gmsh)
+[Study 4 Gmsh](./pincell_study/4_gmsh)
 
 This directory contains a comparative study between the use of Gmsh and Spidermesh.
 
