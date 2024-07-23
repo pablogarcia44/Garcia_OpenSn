@@ -5,6 +5,6 @@
 
 ### Study 1 Legendre Order
 
-](./pincell/pincell.md)
+[Study 1 Legendre Order](./pincell/pincell.md)
 
 [Common Utilities](./utils/utils.md)
