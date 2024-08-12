@@ -5,41 +5,41 @@
 
 This directory contains various analyses on a pin cell without a gap.
 
-### Study 1 Legendre Order
+### Study 1 Uncertainties
 
-[Study 1 Legendre Order](./pincell_study/1_legendre)
+[Study 1 Legendre Order](./pincell_study/uncert)
 
-Ce repertoire contient les analyses portant sur l'ordre de legendre pour la generation des MGXS dans OpenMC
+Generate 3 differents MGXS libraries from the same input OpenMC to compare the OpenSn result
 
-### Study 2 Angular
+### Study 2 Legendre Order
 
-[Study 2 Angular](./pincell_study/2_angular)
+[Study 1 Legendre Order](./pincell_study/legendre)
 
-This directory contains analyses regarding the Legendre order for generating MGXS in OpenMC.
-
-
-### Study 3 Fuel
-
-[Study 3 Fuel](./pincell_study/3_fuel)
-
-This directory contains analyses on the number of fuel zones to generate in OpenMC.
+Generate order 7 mgxs to 
 
 
-### Study 4 Gmsh
+### Study  OpenMC_MGXS
 
-[Study 4 Gmsh](./pincell_study/4_gmsh)
+[Study 3 Fuel](./pincell_study/openmc_mgxs)
 
-This directory contains a comparative study between the use of Gmsh and Spidermesh.
+Contain input file for OpenMC running in MGXS mode for XMAS-172, SHEM-361 and SHEM-361 with different fuel zones
+
+
+### Study 4 Mesh
+
+[Study 4 Gmsh](./pincell_study/mesh)
+
+This directory contains all spydermesh and gmsh input to generate the mesh that are used for the mesh study
 
 ## Assembly study
 
 This directory contains various analyses on a fuel assembly.
 
-### Study 1 Legendre Order
+### Study 1 family
 
 [Study 1 Family](./pincell_study/1_legendre)
 
-This directory contains analyses on the number of families to adopt for generating MGXS with OpenMC.
+T
 
 
 
