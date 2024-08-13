@@ -48,6 +48,50 @@ Opensn input to add when cluster avail
 
 ## Benchmark
 
+### MGXS
+
+[Family](./benchmark/mgxs)
+
+Contain OpenMC input to generate 1 family mgxs for all 2D CASL VERA benchmark
+
+### Power
+
+[Family](./benchmark/power)
+
+Contain OpenMC input to generate power map for all 2D CASL VERA benchmark
+
+## Utilities
+
+[Family](./utilities)
+
+order_alphab.ipynb : Sort a list in alphabetical order, it is useful for creating an OpenSn input file.
+
+plot_h5.ipynb : Allows plotting scattering matrices from a .h5 file.
+
+plot_result.ipynb : All the results obtained.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
