@@ -5,41 +5,52 @@
 
 This directory contains various analyses on a pin cell without a gap.
 
-### Study 1 Uncertainties
+### Legendre Order
 
-[Study 1 Legendre Order](./pincell_study/uncert)
+[Legendre Order](./pincell_study/legendre)
 
-Generate 3 differents MGXS libraries from the same input OpenMC to compare the OpenSn result
+OpenMC input to generate order 7 mgxs, 
+Spydermesh input that generate mesh used for all pincell study,
+OpenSn input.
 
-### Study 2 Legendre Order
+### OpenMC_MGXS
 
-[Study 1 Legendre Order](./pincell_study/legendre)
+[OpenMC_MGXS](./pincell_study/openmc_mgxs)
 
-Generate order 7 mgxs to 
+Contain input file for OpenMC running in MGXS mode for XMAS-172, SHEM-361 and SHEM-361 with different fuel zones.
 
+### Mesh
 
-### Study  OpenMC_MGXS
+[spydermsh vs gmsh](./pincell_study/mesh)
 
-[Study 3 Fuel](./pincell_study/openmc_mgxs)
+Contain all spydermesh and gmsh input to generate the mesh that are used for the mesh study,
+need add opensn input when cluster avail
 
-Contain input file for OpenMC running in MGXS mode for XMAS-172, SHEM-361 and SHEM-361 with different fuel zones
-
-
-### Study 4 Mesh
-
-[Study 4 Gmsh](./pincell_study/mesh)
-
-This directory contains all spydermesh and gmsh input to generate the mesh that are used for the mesh study
 
 ## Assembly study
 
 This directory contains various analyses on a fuel assembly.
 
-### Study 1 family
+### Family
 
-[Study 1 Family](./pincell_study/1_legendre)
+[Family](./assembly_study/family)
 
-T
+Contain OpenMC input to generate mgxs for 1 and 6 families,
+spydermesh input to generate assembly mesh with gap water,
+Opensn input to add when cluster avail
+
+### Power
+
+[Family](./assembly_study/family)
+
+Contain OpenMC input to generate power map,
+Opensn input to add when cluster avail
+
+## Benchmark
+
+
+
+
 
 
 
