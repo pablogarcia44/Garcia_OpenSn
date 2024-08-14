@@ -41,7 +41,7 @@ Opensn input to add when cluster avail
 
 ### Power
 
-[Family](./assembly_study/family)
+[Family](./assembly_study/power)
 
 Contain OpenMC input to generate power map,
 Opensn input to add when cluster avail
@@ -62,7 +62,7 @@ Contain OpenMC input to generate power map for all 2D CASL VERA benchmark
 
 ### Spidermesh
 
-[Family](./benchmark/power)
+[Family](./benchmark/spidermesh)
 
 Contain a spydermesh_driver input to generate all mesh for 2D CASL VERA benchmark
 
