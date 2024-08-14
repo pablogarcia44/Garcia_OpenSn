@@ -41,7 +41,7 @@ Opensn input to add when cluster avail
 
 ### Power
 
-[Family](./assembly_study/power)
+[power](./assembly_study/power)
 
 Contain OpenMC input to generate power map,
 Opensn input to add when cluster avail
@@ -50,25 +50,25 @@ Opensn input to add when cluster avail
 
 ### MGXS
 
-[Family](./benchmark/mgxs)
+[mgxs](./benchmark/mgxs)
 
 Contain OpenMC input to generate 1 family mgxs for all 2D CASL VERA benchmark
 
 ### Power
 
-[Family](./benchmark/power)
+[power](./benchmark/power)
 
 Contain OpenMC input to generate power map for all 2D CASL VERA benchmark
 
 ### Spidermesh
 
-[Family](./benchmark/spidermesh)
+[spideresh](./benchmark/spydermesh)
 
 Contain a spydermesh_driver input to generate all mesh for 2D CASL VERA benchmark
 
 ## Utilities
 
-[Family](./utilities)
+[utilities](./utilities)
 
 order_alphab.ipynb : Sort a list in alphabetical order, it is useful for creating an OpenSn input file.
 
