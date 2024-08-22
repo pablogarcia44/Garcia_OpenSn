@@ -1089,7 +1089,7 @@ if __name__ == "__main__":
         myMESH.deploy_qpc()
 
         uniq_mat, mat_id, mat_count = np.unique(
-        )uox
+        )
         
         # Create a dictionary to map IDs to colors
         id_to_color = {}
