@@ -78,6 +78,8 @@ lbs_options = {
     power_default_kappa = 1.0,
     power_normalization = 1.0,
     save_angular_flux = false,
+    write_restart_time_interval = 3660,
+    write_restart_path = "2D_restart/2D",
 }
 
 phys1 = lbs.DiscreteOrdinatesSolver.Create(lbs_block)
@@ -138,8 +140,8 @@ local num_cells = 17
 
 -- Function to compute the center of a cell
 local function compute_cell_center(i, j, pitch)
-    local x_center = (i - 0.5) * pitch - (num_cells // 2) * pitch
-    local y_center = (j - 0.5) * pitch - (num_cells // 2) * pitch
+    local x_center = (i - 1) * pitch - (num_cells // 2) * pitch
+    local y_center = (j - 1) * pitch - (num_cells // 2) * pitch
     return x_center, y_center
 end
 
