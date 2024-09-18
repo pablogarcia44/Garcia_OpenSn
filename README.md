@@ -10,7 +10,7 @@ This directory contains various analyses on a pin cell without a gap.
 [Legendre Order](./pincell_study/legendre)
 
 OpenMC input to generate order 7 mgxs, 
-Spydermesh input that generate mesh used for all pincell study,
+Spydermesh input that generate mesh used for all pincell study (mesh_1fuel_fine),
 OpenSn input.
 
 ### OpenMC_MGXS
